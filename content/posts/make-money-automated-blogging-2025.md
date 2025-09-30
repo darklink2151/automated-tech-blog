@@ -391,8 +391,8 @@ I'm building this blog using exactly this strategy. I'll update with real number
 
 ---
 
-*Started this blog: September 30, 2025*  
-*Current income: $0 (Day 1)*  
+*Started this blog: September 30, 2025*
+*Current income: $0 (Day 1)*
 *Next update: October 30, 2025*
 
 Let's see if I can hit $500 in the first month. I'll document everything.

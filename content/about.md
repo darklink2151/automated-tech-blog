@@ -64,8 +64,8 @@ I'll be documenting everything along the way - wins, failures, and lessons learn
 
 ### Want to Follow Along?
 
-📧 **Subscribe** to get notified of new posts (no spam, just value)  
-🐦 **Twitter/X**: [@yourusername] (coming soon)  
+📧 **Subscribe** to get notified of new posts (no spam, just value)
+🐦 **Twitter/X**: [@yourusername] (coming soon)
 💻 **GitHub**: [github.com/yourusername] (coming soon)
 
 ### Contact

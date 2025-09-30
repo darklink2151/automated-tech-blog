@@ -172,7 +172,7 @@ param([string]$Action = "list")
 $VaultPath = "$env:USERPROFILE\OneDrive\Documents\Obsidian Vault"
 
 function List-Notes {
-    Get-ChildItem $VaultPath -Recurse -Filter "*.md" | 
+    Get-ChildItem $VaultPath -Recurse -Filter "*.md" |
     ForEach-Object {
         Write-Host "📄 $($_.Name)" -ForegroundColor Cyan
     }
@@ -378,8 +378,8 @@ $env:Path = [System.Environment]::GetEnvironmentVariable("Path","Machine") + ";"
 
 This setup transformed my development workflow. What used to take hours now takes minutes. The investment of 2-3 hours pays back immediately.
 
-**Time saved per week:** 5-10 hours  
-**Productivity increase:** ~400%  
+**Time saved per week:** 5-10 hours
+**Productivity increase:** ~400%
 **Cost:** $0 (everything is free!)
 
 ---

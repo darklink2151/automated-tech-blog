@@ -70,7 +70,7 @@ Using [PaperMod](https://github.com/adityatelange/hugo-PaperMod) - fast, SEO-fri
 
 ## License
 
-Content: CC BY 4.0  
+Content: CC BY 4.0
 Code: MIT
 
 ## Contact
