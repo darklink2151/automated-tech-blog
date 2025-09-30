@@ -2,7 +2,6 @@ baseURL = 'https://your-blog-name.netlify.app/'  # We'll update this after deplo
 languageCode = 'en-us'
 title = 'Tech Automation Hub'  # Change this to your blog name
 theme = 'PaperMod'
-paginate = 10
 
 enableRobotsTXT = true
 buildDrafts = false
@@ -46,21 +45,6 @@ pygmentsUseClasses = true
   # Analytics (Add your codes after setup)
   googleAnalytics = ""  # Add your GA4 ID
   
-  # Social media
-  [params.socialIcons]
-    [[params.socialIcons]]
-      name = "twitter"
-      url = "https://twitter.com/yourusername"
-    [[params.socialIcons]]
-      name = "github"
-      url = "https://github.com/yourusername"
-    [[params.socialIcons]]
-      name = "linkedin"
-      url = "https://linkedin.com/in/yourusername"
-    [[params.socialIcons]]
-      name = "rss"
-      url = "/index.xml"
-
   # Home page
   [params.homeInfoParams]
     Title = "Welcome to Tech Automation Hub 🚀"
@@ -70,9 +54,17 @@ pygmentsUseClasses = true
     Learn how to leverage AI, automation, and smart tools to boost productivity and generate income.
     """
 
-  [[params.socialIcons]]
-    name = "email"
-    url = "mailto:contact@yourdomain.com"
+[[params.socialIcons]]
+  name = "twitter"
+  url = "https://twitter.com/yourusername"
+
+[[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/yourusername"
+
+[[params.socialIcons]]
+  name = "rss"
+  url = "/index.xml"
 
 # Menu configuration
 [[menu.main]]
@@ -111,6 +103,10 @@ pygmentsUseClasses = true
   tag = "tags"
   series = "series"
 
+# Pagination
+[pagination]
+  pagerSize = 10
+
 # Privacy (GDPR compliant)
 [privacy]
   [privacy.disqus]
@@ -118,7 +114,7 @@ pygmentsUseClasses = true
   [privacy.googleAnalytics]
     anonymizeIP = true
     respectDoNotTrack = true
-  [privacy.twitter]
+  [privacy.x]
     enableDNT = true
 
 # Output formats
