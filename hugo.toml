@@ -1,0 +1,138 @@
+baseURL = 'https://your-blog-name.netlify.app/'  # We'll update this after deployment
+languageCode = 'en-us'
+title = 'Tech Automation Hub'  # Change this to your blog name
+theme = 'PaperMod'
+paginate = 10
+
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+enableEmoji = true
+pygmentsUseClasses = true
+
+[minify]
+  disableXML = true
+  minifyOutput = true
+
+[params]
+  env = "production"
+  title = "Tech Automation Hub"
+  description = "Automating workflows, solving tech problems, and building profitable systems"
+  keywords = ["automation", "productivity", "tech", "coding", "AI", "make money online"]
+  author = "Tech Automation Hub"
+  
+  # SEO & Social
+  images = ["/images/og-image.png"]
+  DateFormat = "January 2, 2006"
+  defaultTheme = "auto"
+  disableThemeToggle = false
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowWordCount = true
+  ShowRssButtonInSectionTermList = true
+  UseHugoToc = true
+  disableSpecial1stPost = false
+  disableScrollToTop = false
+  comments = true
+  hidemeta = false
+  hideSummary = false
+  showtoc = true
+  tocopen = true
+
+  # Analytics (Add your codes after setup)
+  googleAnalytics = ""  # Add your GA4 ID
+  
+  # Social media
+  [params.socialIcons]
+    [[params.socialIcons]]
+      name = "twitter"
+      url = "https://twitter.com/yourusername"
+    [[params.socialIcons]]
+      name = "github"
+      url = "https://github.com/yourusername"
+    [[params.socialIcons]]
+      name = "linkedin"
+      url = "https://linkedin.com/in/yourusername"
+    [[params.socialIcons]]
+      name = "rss"
+      url = "/index.xml"
+
+  # Home page
+  [params.homeInfoParams]
+    Title = "Welcome to Tech Automation Hub 🚀"
+    Content = """
+    Automating workflows, solving real tech problems, and building profitable systems.
+    
+    Learn how to leverage AI, automation, and smart tools to boost productivity and generate income.
+    """
+
+  [[params.socialIcons]]
+    name = "email"
+    url = "mailto:contact@yourdomain.com"
+
+# Menu configuration
+[[menu.main]]
+  identifier = "home"
+  name = "Home"
+  url = "/"
+  weight = 10
+
+[[menu.main]]
+  identifier = "blog"
+  name = "Blog"
+  url = "/posts/"
+  weight = 20
+
+[[menu.main]]
+  identifier = "categories"
+  name = "Categories"
+  url = "/categories/"
+  weight = 30
+
+[[menu.main]]
+  identifier = "tags"
+  name = "Tags"
+  url = "/tags/"
+  weight = 40
+
+[[menu.main]]
+  identifier = "about"
+  name = "About"
+  url = "/about/"
+  weight = 50
+
+# Taxonomies
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+  series = "series"
+
+# Privacy (GDPR compliant)
+[privacy]
+  [privacy.disqus]
+    disable = true
+  [privacy.googleAnalytics]
+    anonymizeIP = true
+    respectDoNotTrack = true
+  [privacy.twitter]
+    enableDNT = true
+
+# Output formats
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+# Markup
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    anchorLineNos = false
+    codeFences = true
+    guessSyntax = true
+    lineNos = true
+    style = "monokai"
