@@ -22,7 +22,7 @@ pygmentsUseClasses = true
   author = "Tech Automation Hub"
 
   # SEO & Social
-  images = ["/images/og-image.png"]
+  images = ["/images/adventures-banner.png"]
   DateFormat = "January 2, 2006"
   defaultTheme = "auto"
   disableThemeToggle = false

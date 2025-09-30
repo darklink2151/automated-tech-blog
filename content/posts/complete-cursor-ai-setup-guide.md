@@ -7,9 +7,9 @@ categories: ["Tutorials", "Productivity"]
 author: "Tech Automation Hub"
 description: "Step-by-step guide to setting up Cursor AI with full WSL integration, MCP servers, and Obsidian knowledge base. Go from basic setup to 100% capability in hours."
 cover:
-    image: ""
-    alt: "Cursor AI Complete Setup"
-    caption: "Transform your development environment"
+    image: "/images/adventures-banner.png"
+    alt: "Adventures in AI - Cursor Setup"
+    caption: "Transform your development environment with AI"
 ShowToc: true
 TocOpen: true
 ---

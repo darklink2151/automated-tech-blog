@@ -6,6 +6,10 @@ tags: ["make-money-online", "blogging", "automation", "passive-income", "AI"]
 categories: ["Make Money", "Blogging"]
 author: "Tech Automation Hub"
 description: "Step-by-step guide to building an automated blog that generates real income. Learn the exact strategy I'm using to go from zero to $1K+/month."
+cover:
+    image: "/images/youtube-thumbnail.png"
+    alt: "Make Money with Automated Blogging"
+    caption: "The strategy that actually works in 2025"
 ShowToc: true
 TocOpen: true
 ---
