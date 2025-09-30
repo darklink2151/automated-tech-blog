@@ -21,6 +21,7 @@ Today, I'm sharing my complete journey of optimizing Cursor AI from basic functi
 ### What You'll Achieve
 
 By the end of this guide, you'll have:
+
 - ✅ Full WSL (Kali Linux) integration with Cursor
 - ✅ 3 MCP servers running (filesystem, memory, GitHub)
 - ✅ Obsidian knowledge base connected
@@ -30,6 +31,7 @@ By the end of this guide, you'll have:
 ### Why This Setup Matters
 
 Most people use Cursor AI at maybe 20% of its potential. This setup unlocks:
+
 - **Cross-platform development** - Windows + Linux simultaneously
 - **Enhanced file operations** - Advanced search, organization, automation
 - **Knowledge management** - Your notes accessible to AI
@@ -40,6 +42,7 @@ Most people use Cursor AI at maybe 20% of its potential. This setup unlocks:
 ## Prerequisites
 
 Before starting, you'll need:
+
 - Windows 10/11
 - Cursor AI installed
 - ~2-3 hours for complete setup
@@ -52,6 +55,7 @@ Before starting, you'll need:
 ### Why WSL?
 
 WSL 2 gives you a full Linux environment alongside Windows with near-native performance. For Cursor AI, this means:
+
 - Access to Linux tools and packages
 - Cross-platform testing
 - Security tools (if using Kali)
@@ -68,6 +72,7 @@ wsl --list --verbose
 ```
 
 **Expected output:**
+
 ```
 NAME            STATE       VERSION
 kali-linux      Running     2
@@ -113,6 +118,7 @@ winget install OpenJS.NodeJS.LTS --accept-package-agreements
 ```
 
 Refresh your environment:
+
 ```powershell
 $env:Path = [System.Environment]::GetEnvironmentVariable("Path","Machine") + ";" + [System.Environment]::GetEnvironmentVariable("Path","User")
 node --version  # Should show v22+
@@ -182,6 +188,7 @@ function List-Notes {
 ```
 
 Now Cursor AI can:
+
 - Read your notes
 - Create new notes
 - Search your vault
@@ -298,24 +305,28 @@ npm list -g --depth=0 | Select-String "@modelcontextprotocol"
 With this setup, ask Cursor AI:
 
 ### Cross-Platform Development
+
 ```
 "Test this Python script in both Windows and WSL"
 "Compare file sizes between environments"
 ```
 
 ### Knowledge Management
+
 ```
 "Create an Obsidian note documenting this fix"
 "Search my notes for GPU troubleshooting"
 ```
 
 ### Advanced Automation
+
 ```
 "Create a backup script for my Projects folder"
 "Organize Downloads automatically"
 ```
 
 ### Code Search
+
 ```
 "Search GitHub for RTX 3050 driver detection code"
 "Find examples of WSL automation in PowerShell"
@@ -352,12 +363,14 @@ $env:Path = [System.Environment]::GetEnvironmentVariable("Path","Machine") + ";"
 ## Performance Impact
 
 **Before optimization:**
+
 - Basic file operations only
 - Single-platform development
 - Manual documentation
 - No persistent AI context
 
 **After optimization:**
+
 - 500% capability increase
 - Cross-platform workflows
 - Automated documentation

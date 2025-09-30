@@ -11,6 +11,7 @@ Hey there! I'm documenting my journey automating everything, solving real tech p
 ### What This Blog Is About
 
 **Tech Automation Hub** is where I share:
+
 - **Real solutions** to actual problems I've encountered
 - **Automation workflows** that save time and boost productivity
 - **Money-making strategies** using tech and AI
@@ -22,6 +23,7 @@ Hey there! I'm documenting my journey automating everything, solving real tech p
 After spending years manually doing repetitive tasks, I finally decided to automate everything possible. The results? I'm now **5x more productive** and have automated income streams.
 
 This blog documents:
+
 - What works (and what doesn't)
 - Step-by-step guides you can actually follow
 - Real numbers and results (no BS)
@@ -30,6 +32,7 @@ This blog documents:
 ### What Makes This Different
 
 **No fluff, just real stuff:**
+
 - ✅ I only write about things I've actually done
 - ✅ All guides are tested and work
 - ✅ Real income numbers (updated monthly)
@@ -39,6 +42,7 @@ This blog documents:
 ### My Setup
 
 **Current Stack:**
+
 - **Development**: Cursor AI, WSL 2 (Kali Linux), VS Code
 - **Knowledge Management**: Obsidian
 - **Automation**: PowerShell, Python, Node.js
@@ -56,6 +60,7 @@ This blog documents:
 ### My Journey (So Far)
 
 **September 30, 2025**: Launched Tech Automation Hub
+
 - Optimized complete Cursor AI setup (WSL, MCP servers, Obsidian)
 - Built this automated blog in one day
 - Goal: $500 in first month, $3,000 by month 6
@@ -71,14 +76,15 @@ I'll be documenting everything along the way - wins, failures, and lessons learn
 ### Contact
 
 Got questions? Want to collaborate? Reach out:
-- **Email**: contact@yourdomain.com (update this!)
+
+- **Email**: <contact@yourdomain.com> (update this!)
 - **Comments**: I respond to everything!
 
 ### Affiliate Disclosure
 
 This blog contains affiliate links. If you click through and make a purchase, I may earn a commission at no additional cost to you. I only recommend products and services I personally use or have thoroughly researched.
 
-### Let's Connect!
+### Let's Connect
 
 I'm always looking to connect with like-minded people who love automation, productivity, and building cool stuff.
 
