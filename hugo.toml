@@ -1,4 +1,4 @@
-baseURL = 'https://your-blog-name.netlify.app/'  # We'll update this after deployment
+baseURL = 'https://adventures-in-ai.netlify.app/'
 languageCode = 'en-us'
 title = 'Tech Automation Hub'  # Change this to your blog name
 theme = 'PaperMod'
@@ -20,7 +20,7 @@ pygmentsUseClasses = true
   description = "Automating workflows, solving tech problems, and building profitable systems"
   keywords = ["automation", "productivity", "tech", "coding", "AI", "make money online"]
   author = "Tech Automation Hub"
-  
+
   # SEO & Social
   images = ["/images/og-image.png"]
   DateFormat = "January 2, 2006"
@@ -44,13 +44,13 @@ pygmentsUseClasses = true
 
   # Analytics (Add your codes after setup)
   googleAnalytics = ""  # Add your GA4 ID
-  
+
   # Home page
   [params.homeInfoParams]
     Title = "Welcome to Tech Automation Hub 🚀"
     Content = """
     Automating workflows, solving real tech problems, and building profitable systems.
-    
+
     Learn how to leverage AI, automation, and smart tools to boost productivity and generate income.
     """
 
